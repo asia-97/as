@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaza & Moataz's Wedding</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Shaza & Moataz's Special Day</h1>
+        <p>We are excited to celebrate with you on <strong>25/05/2025</strong></p>
+    </header>
+
+    <section id="details">
+        <h2>Event Details</h2>
+        <p><strong>Date:</strong> 25th May 2025</p>
+        <p><strong>Location:</strong> [    Penthouse Event& Business Suite]</p>
+        <p><strong>Address:</strong> [ 333 Terminal Ave #800, Vancouver,BCV6A 4C1]</p>
+    </section>
+        <p><strong>Time:</strong> [06 pm- 11pm ]</p>
+    </section>
+
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <p>Let us know if you can join us!</p>
+        <form id="rsvp-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="thank-you" style="display: none;">
+            <p>Thank you for your RSVP! We can't wait to celebrate with you.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>With love, Shaza & Moataz</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
